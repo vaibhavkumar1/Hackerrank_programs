@@ -6,7 +6,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double d=scan.nextDouble();
-        String f=scan.nextLine();
+        String f=scan.nextLine(); // this string input for enter.
         String s = scan.nextLine(); 
 
         
