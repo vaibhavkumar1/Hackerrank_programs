@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Solution {
+    private static int Null;
+    public static void main(String[] args) {
+        String s1[] = new String[3];
+        int x[]=new int[3];
+        int c[]=new int[3];
+        String n[]=new String[3];
+        Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++){
+            s1[i]=sc.next();
+            x[i]=sc.nextInt();
+           
+            n[i]=n[i].format("%03d", x[i]); 
+        }
+        for(int j=0;j<3;j++){
+            System.out.println(s+n[j]);
+        }        
+           System.out.println("================================");
+
+    }
+}
